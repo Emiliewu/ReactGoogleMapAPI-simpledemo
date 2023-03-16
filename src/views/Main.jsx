@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import Form from '../components/form';
-import Display from './display';
+import Form from '../components/Form';
+import Display from './Display';
 
 function Main() {
     const [data, setData] = useState({

@@ -1,6 +1,6 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom';
-import Main from './views/main';
+import Main from './views/Main';
 
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route element = {<Main/>} path = "/"/>
+
       </Routes>
     </div>
   );

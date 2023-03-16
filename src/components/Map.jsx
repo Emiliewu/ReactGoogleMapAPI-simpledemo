@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Loader } from '@googlemaps/js-api-loader';
+require("dotenv").config();
 
 function Map({ location }) {
   const [map, setMap] = useState(null);

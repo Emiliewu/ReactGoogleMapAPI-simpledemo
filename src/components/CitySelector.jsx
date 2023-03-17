@@ -9,7 +9,7 @@ function CitySelector() {
     const handleFormSubmit = async (event) => {
         event.preventDefault();
         const response = await axios.get(
-        `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${city}&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`
+        `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${city}&key=${process.env.GOOGLE_API_KEY}`
         );
         setPlaces(response.data.results);
     };
